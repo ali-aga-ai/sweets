@@ -12,7 +12,7 @@ const MyCarousel = () => {
 
   return (
     <div className='carousel bg-gray-200'>
-      <h2 className="delicacies-heading text-3xl font-bold mb-4 text-center mt-4">Our Delicacies</h2>
+<h1 className="delicacies-heading text-6xl font-bold mb-4 text-center mt-4" style={{ color: "black", fontSize: "3.5rem" }}>Our Delicacies</h1>
       <Carousel className="custom-carousel p-6" interval={1500}>
         {/* 3000 milliseconds (3 seconds) interval for auto-scroll */}
         <Carousel.Item>
